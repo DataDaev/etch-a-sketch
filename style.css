@@ -1,11 +1,14 @@
 #gridContainer {
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(16, 50px);
+    max-width: 800px;
 }
 
 #gridContainer > div {
-    width: 50px;
-    height: 50px;
+    width: 10px;
+    height: 10px;
     border: 1px solid black;
 }
+
+
+
