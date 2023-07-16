@@ -1,7 +1,12 @@
+#centeringContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 #gridContainer {
     display: grid;
-    justify-content: center;
-    max-width: 800px;
 }
 
 #gridContainer > div {
@@ -10,5 +15,9 @@
     border: 1px solid black;
 }
 
+#createGrid {
+    padding: 20px;
+    margin: 50px 0;
+}
 
 
